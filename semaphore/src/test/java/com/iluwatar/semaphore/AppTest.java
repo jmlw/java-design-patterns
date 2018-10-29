@@ -22,7 +22,8 @@
  */
 package com.iluwatar.semaphore;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+
 import java.io.IOException;
 
 /**
@@ -30,7 +31,7 @@ import java.io.IOException;
  */
 public class AppTest {
   @Test
-  public void test() throws IOException {
+  public void test() {
     String[] args = {};
     App.main(args);
   }
